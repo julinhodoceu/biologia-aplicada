@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+* {
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(to bottom, #c061ff, white);
+    height: auto;
+}
+
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+nav {
+    background-color: #ffe941;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+a {
+    background-color: white;
+    padding: 5px;
+    padding-right: 50px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+#direito {
+    border-radius: 0px 9px 9px 0px;
+}
+
+#esquerdo {
+    border-radius: 9px 0px 0px 9px;
+}
