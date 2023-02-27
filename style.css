@@ -56,8 +56,8 @@ a.nave:hover {
 }
 
 .foto {
-    width: max(200px, 30vw);
-    height: max(300px, 40vw);
+    width: max(150px, 30vw);
+    height: max(250px, 40vw);
     border: 1px solid black;
     margin: 20px;
     border-radius: 9px;
@@ -89,7 +89,7 @@ main {
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #333333;
-    font-size: max(30px, 4vw);
+    font-size: max(20px, 4vw);
     font-weight: 400;
     margin-left: 20px;
     margin-right: 20px;
