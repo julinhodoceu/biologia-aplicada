@@ -8,7 +8,7 @@
 body {
     background-image: linear-gradient(to bottom, #c061ff, white);
     height: auto;
-    margin: 10px;
+    margin: 15px;
 }
 
 
@@ -56,9 +56,9 @@ a.nave:hover {
 }
 
 .foto {
-    width: max(220px, 30vw);
-    height: max(320px, 40vw);
+    width: 50vw;
     border: 1px solid black;
+    height: 60vw;
     margin: 20px;
     border-radius: 9px;
     background-image: url(imagens/IMG_0270-1024x1024.png);
@@ -89,7 +89,7 @@ main {
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #333333;
-    font-size: max(30px, 4vw);
+    font-size: clamp(4vw, 4.5vw, 4vw);
     font-weight: 400;
     margin-left: 20px;
     margin-right: 20px;
@@ -98,7 +98,7 @@ h2 {
 p {
     font-family: 'Source Sans Pro', sans-serif;
     color: #333333;
-    font-size: max(10px, 2.5vw);
-    margin-right: max(20px, 2vw);
-    margin-left: max(20px, 2vw);
+    font-size: clamp(300px, 500px, 700px);
+    margin-right: 20px;
+    margin-left: 20px;
 }
