@@ -56,8 +56,8 @@ a.nave:hover {
 }
 
 .foto {
-    width: max(220px, 30vw);
-    height: max(320px, 40vw);
+    width: max(200px, 30vw);
+    height: max(300px, 40vw);
     border: 1px solid black;
     margin: 20px;
     border-radius: 9px;
