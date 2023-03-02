@@ -61,7 +61,6 @@ a.nave:hover {
     border: 1px solid black;
     margin: 20px;
     border-radius: 9px;
-    background-image: url(imagens/IMG_0270-1024x1024.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +68,20 @@ a.nave:hover {
 
 }
 
-#intro {
+#foto1 {
+    background-image: url(imagens/IMG_0270-1024x1024.png);
+}
+
+#foto2 {
+    background-image: url(imagens/Capa.jpg);
+    float: right;
+}
+
+#pequenasereia > h2 {
+    text-align: center;
+}
+
+section {
     background-color: white;
     margin: 20px;
     border-radius: 9px;
