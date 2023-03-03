@@ -114,3 +114,14 @@ p {
     margin-right: max(20px, 2vw);
     margin-left: max(20px, 2vw);
 }
+
+footer p {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    margin-top: 5px;
+    font-size: max(15px, 1vw);
+}
+
