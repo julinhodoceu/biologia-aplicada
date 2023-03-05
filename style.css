@@ -24,8 +24,39 @@ nav {
     padding: 10px;
     border-radius: 9px;
     border: 1px solid black;
+    display: flex;
 }
 
+header {
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav {
+    flex: 1;
+  }
+  
+  form {
+    margin-left: auto;
+  }
+  
+  input[type="text"] {
+    width: max(170px, 1.5vw);
+    height: max(25px, 1.5vw);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    height: max(25px, 1.5vw);
+  }
 a.nave {
     background-color: white;
     padding: 5px;
@@ -35,6 +66,9 @@ a.nave {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
+    font-size: max(8px, 1.5vw);
+    display: inline-block;
+    
 }
 
 #principal {
@@ -122,6 +156,9 @@ footer p {
     border: 1px solid black;
     border-radius: 9px;
     margin-top: 5px;
-    font-size: max(15px, 1vw);
+    font-size: max(15px, 1.5vw);
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 5px;
 }
 
