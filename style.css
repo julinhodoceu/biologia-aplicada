@@ -8,7 +8,7 @@
 }
 body {
     background-image: linear-gradient(to bottom, #c061ff, white);
-    margin: 10px;
+    margin: 0px;
 }
 
 
@@ -21,59 +21,32 @@ h1 {
 
 nav {
     background-color: #ffe941;
-    padding: 10px;
-    border-radius: 9px;
+    padding: 20px;
     border: 1px solid black;
     display: flex;
+    height: 2.5em;
 }
 
-header {
-    justify-content: flex-end;
-    align-items: center;
-  }
   
-  nav {
-    flex: 1;
-  }
-  
-  form {
-    margin-left: auto;
-  }
-  
-  input[type="text"] {
-    width: max(170px, 1.5vw);
-    height: max(25px, 1.5vw);
-    padding: 5px 10px;
-    border: none;
-    border-radius: 3px;
-  }
-  
-  button[type="submit"] {
-    background-color: #ffffff;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 5px 10px;
-    cursor: pointer;
-    height: max(25px, 1.5vw);
-  }
 a.nave {
     background-color: white;
     padding: 5px;
-    padding-right: 50px;
+    padding-right: 20px;
     padding-left: 20px;
     text-decoration: none;
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: max(8px, 1.5vw);
-    display: inline-block;
-    
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #principal {
     text-decoration: none;
     color: white;
+    font-size: 0.5em;
 }
 
 a.nave:hover {
@@ -81,12 +54,15 @@ a.nave:hover {
     transition-duration: 0.3s;
 }
 
-#direito {
-    border-radius: 0px 9px 9px 0px;
-}
 
-#esquerdo {
-    border-radius: 9px 0px 0px 9px;
+#titulo {
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 2.9vw;
+    margin-top: 5px;
+    margin-right: 70px;
 }
 
 .foto {
@@ -129,6 +105,7 @@ main {
     margin-top: 30px;
     border-radius: 9px;
     border: 1px solid black;
+    margin: 20px;
     
 }
 
@@ -162,3 +139,26 @@ footer p {
     padding: 5px;
 }
 
+footer {
+    margin: 20px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  width: 9em;
+  padding-top: 8px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#minhaconta {
+    width: 5.3em;
+}
