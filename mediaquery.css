@@ -7,14 +7,17 @@
     #titulo {
         font-size: 1.7em;
         margin-top: -2px;
+        margin-right: 0;
+        margin-left: -30px;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 610px) {
     #titulo {
-        font-size: 1.7em;
-        margin-top: 9px;
-        margin-right: 10px;
+        font-size: 1.9em;
+        margin-top: -5px;
+        margin-left: -50px;
+        margin-right: 0;
     }
 
     .nave {
@@ -22,30 +25,70 @@
 }
 }
 
-@media screen and (min-width: 611px) and (max-width: 899px) {
+@media screen and (min-width: 611px) and (max-width: 700px) {
     #titulo {
         font-size: 1.7em;
-        margin-right: 10px;
-        margin-top: 9px;
+        margin-right: 0px;
+       margin-top: -5px;
+   
+    }
+
+    #search {
+        margin-left: 100px;
     }
 
     .nave {
         display: none;
 }
+
 }
 
-@media screen and (min-width: 900px) and (max-width: 1048px) {
+@media screen and (min-width: 701px) and (max-width: 1050px) {
 
     #titulo {
    
         font-size: 1.5em;
-        margin-right: 0px;
-        margin-top: -2px;
+        margin-top: 10px;
+    }
+    #minhaconta {
+        width: 7em;
+        text-align: center;
+    }
+    .nave {
+        display: none;
+}
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 800px) {
+    #titulo {
+        margin-right: 120px;
     }
 
 }
 
-@media screen and (min-width: 1049px) and (max-width: 1199px) {
+@media screen and (min-width: 801px) and (max-width: 850px) {
+    #titulo {
+        margin-right: 180px;
+    }
+
+}
+
+@media screen and (min-width: 851px) and (max-width: 950px) {
+    #titulo {
+        margin-right: 220px;
+    }
+
+}
+
+@media screen and (min-width: 951px) and (max-width: 1050px) {
+    #titulo {
+        margin-right: 320px;
+    }
+
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1199px) {
 
     #titulo {
    
@@ -53,6 +96,9 @@
         margin-right: 0px;
         margin-top: 10px;
     }
+    #menu {
+        display: none;
+}
 
 }
 
@@ -62,5 +108,15 @@
         font-size: 1.6em;
         margin-top: 10px;
     }
+    #menu {
+        display: none;
+}
+}
+
+@media screen and (min-width: 1300px) {
+
+    #menu {
+        display: none;
+}
 
 }
